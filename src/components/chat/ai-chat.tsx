@@ -257,7 +257,12 @@ export function AIChat({ isOpen = true, onClose, variant = 'floating', className
                         : 'bg-muted'
                     )}
                   >
-                    <div className="text-sm prose prose-sm dark:prose-invert max-w-none prose-p:my-1 prose-ul:my-1 prose-ol:my-1 prose-li:my-0 prose-headings:my-2 prose-h3:text-base prose-h4:text-sm prose-strong:font-semibold">
+                    <div className={cn(
+                      "text-sm prose prose-sm max-w-none prose-p:my-1 prose-ul:my-1 prose-ol:my-1 prose-li:my-0 prose-headings:my-2 prose-h3:text-base prose-h4:text-sm prose-strong:font-semibold",
+                      message.role === 'assistant'
+                        ? 'prose-headings:text-foreground prose-p:text-foreground prose-li:text-foreground prose-strong:text-foreground prose-td:text-foreground prose-th:text-foreground text-foreground'
+                        : 'prose-invert'
+                    )}>
                       {message.content ? (
                         message.role === 'assistant' ? (
                           <ReactMarkdown remarkPlugins={[remarkGfm]}>
