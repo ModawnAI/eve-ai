@@ -13,7 +13,9 @@ import {
   CircleNotch,
 } from '@phosphor-icons/react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import {
   Card,
   CardContent,
@@ -273,7 +275,7 @@ export default function AIPage() {
 
       {/* Chat Area */}
       <Card className="flex-1 flex flex-col">
-        <CardHeader className="pb-3 border-b">
+        <CardHeader className="pb-3">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
               <Robot className="h-5 w-5 text-primary" />
@@ -323,7 +325,15 @@ export default function AIPage() {
                           : 'bg-muted'
                       }`}
                     >
-                      <p className="text-sm whitespace-pre-wrap">{message.content}</p>
+                      <div className="text-sm prose prose-sm dark:prose-invert max-w-none prose-p:my-1 prose-ul:my-1 prose-ol:my-1 prose-li:my-0 prose-headings:my-2">
+                        {message.role === 'assistant' ? (
+                          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                            {message.content}
+                          </ReactMarkdown>
+                        ) : (
+                          <span className="whitespace-pre-wrap">{message.content}</span>
+                        )}
+                      </div>
                       <p
                         className={`text-xs mt-1 ${
                           message.role === 'user'
@@ -363,7 +373,7 @@ export default function AIPage() {
 
         {/* Suggested Prompts */}
         {messages.length === 0 && (
-          <div className="px-4 py-2 border-t">
+          <div className="px-4 py-2">
             <div className="flex gap-2 flex-wrap">
               {suggestedPrompts.map((prompt) => (
                 <Button
@@ -382,22 +392,29 @@ export default function AIPage() {
         )}
 
         {/* Input */}
-        <div className="p-4 border-t">
+        <div className="p-4">
           <form
             onSubmit={(e) => {
               e.preventDefault();
               handleSend();
             }}
-            className="flex gap-2"
+            className="flex gap-2 items-end"
           >
-            <Input
+            <Textarea
               value={input}
               onChange={(e) => setInput(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                  e.preventDefault();
+                  handleSend();
+                }
+              }}
               placeholder={t('inputPlaceholder')}
-              className="flex-1"
+              className="flex-1 min-h-[80px] max-h-[200px] resize-none"
+              rows={3}
               disabled={sending}
             />
-            <Button type="submit" disabled={!input.trim() || sending}>
+            <Button type="submit" disabled={!input.trim() || sending} className="h-11">
               {sending ? (
                 <CircleNotch className="h-4 w-4 animate-spin" />
               ) : (

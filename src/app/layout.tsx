@@ -17,11 +17,48 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "EVE AI - Insurance Agency Automation",
-    template: "%s | EVE AI",
+    default: "Eve AI - Intelligent Insurance Agency Automation",
+    template: "%s | Eve AI",
   },
-  description: "Bilingual insurance agency automation platform powered by AI",
-  keywords: ["insurance", "agency", "automation", "AI", "bilingual", "Chinese", "English"],
+  description: "Transform your insurance agency with AI-powered automation. Bilingual support for English and Chinese, streamlined workflows, and intelligent client management.",
+  keywords: [
+    "insurance agency software",
+    "insurance automation",
+    "AI insurance platform",
+    "bilingual insurance software",
+    "insurance CRM",
+    "agency management system",
+    "Chinese insurance software",
+    "insurance workflow automation",
+  ],
+  authors: [{ name: "Eve AI" }],
+  creator: "Eve AI",
+  publisher: "Eve AI",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "https://eve-ai.com"),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    alternateLocale: "zh_CN",
+    siteName: "Eve AI",
+    title: "Eve AI - Intelligent Insurance Agency Automation",
+    description: "Transform your insurance agency with AI-powered automation. Bilingual support, streamlined workflows, and intelligent client management.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Eve AI - Intelligent Insurance Agency Automation",
+    description: "Transform your insurance agency with AI-powered automation.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default async function RootLayout({

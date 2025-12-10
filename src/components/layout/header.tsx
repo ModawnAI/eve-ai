@@ -66,9 +66,9 @@ export function Header({ user }: HeaderProps) {
   };
 
   return (
-    <header className="sticky top-0 z-40 flex h-16 items-center gap-4 border-b bg-background/95 px-6 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-40 flex h-16 items-center justify-end gap-4 bg-background/95 px-6 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       {/* Search */}
-      <div className="flex-1 max-w-md">
+      <div className="w-64">
         <div className="relative">
           <MagnifyingGlass className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input

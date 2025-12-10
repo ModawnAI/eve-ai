@@ -108,14 +108,14 @@ export function Sidebar({ collapsed = false, onCollapsedChange }: SidebarProps) 
     <TooltipProvider>
       <aside
         className={cn(
-          'flex h-screen flex-col border-r bg-card transition-all duration-300',
+          'flex h-screen flex-col bg-card transition-all duration-300',
           collapsed ? 'w-16' : 'w-64'
         )}
       >
         {/* Logo */}
         <div
           className={cn(
-            'flex h-16 items-center border-b px-4',
+            'flex h-16 items-center px-4',
             collapsed ? 'justify-center' : 'gap-2'
           )}
         >
@@ -137,7 +137,7 @@ export function Sidebar({ collapsed = false, onCollapsedChange }: SidebarProps) 
         </ScrollArea>
 
         {/* Bottom Navigation */}
-        <div className="border-t px-3 py-4">
+        <div className="px-3 py-4">
           <nav className="flex flex-col gap-1">
             {bottomNavItems.map((item) => (
               <NavLink key={item.href} item={item} />

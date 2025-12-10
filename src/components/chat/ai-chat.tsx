@@ -19,6 +19,8 @@ import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { cn } from '@/lib/utils';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface Message {
   id: string;
@@ -255,8 +257,16 @@ export function AIChat({ isOpen = true, onClose, variant = 'floating', className
                         : 'bg-muted'
                     )}
                   >
-                    <div className="text-sm whitespace-pre-wrap">
-                      {message.content || (
+                    <div className="text-sm prose prose-sm dark:prose-invert max-w-none prose-p:my-1 prose-ul:my-1 prose-ol:my-1 prose-li:my-0 prose-headings:my-2 prose-h3:text-base prose-h4:text-sm prose-strong:font-semibold">
+                      {message.content ? (
+                        message.role === 'assistant' ? (
+                          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                            {message.content}
+                          </ReactMarkdown>
+                        ) : (
+                          <span className="whitespace-pre-wrap">{message.content}</span>
+                        )
+                      ) : (
                         <span className="flex items-center gap-2">
                           <ArrowClockwise className="h-4 w-4 animate-spin" />
                           {t('thinking') || 'Thinking...'}
@@ -297,8 +307,8 @@ export function AIChat({ isOpen = true, onClose, variant = 'floating', className
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
               placeholder={t('placeholder') || 'Type your message...'}
-              className="min-h-[44px] max-h-[120px] resize-none rounded-xl bg-background"
-              rows={1}
+              className="min-h-[80px] max-h-[200px] resize-none rounded-xl bg-background"
+              rows={3}
               disabled={isLoading}
             />
             <Button
