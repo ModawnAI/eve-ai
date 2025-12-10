@@ -322,7 +322,7 @@ export default function DashboardPage() {
             {loading ? (
               <div className="space-y-4">
                 {[...Array(3)].map((_, i) => (
-                  <div key={i} className="flex items-center justify-between rounded-lg border p-3">
+                  <div key={i} className="flex items-center justify-between rounded-lg bg-muted/30 p-3">
                     <div className="space-y-2">
                       <Skeleton className="h-4 w-32" />
                       <Skeleton className="h-3 w-24" />
@@ -343,7 +343,7 @@ export default function DashboardPage() {
                 {expiringPolicies.map((policy) => (
                   <div
                     key={policy.id}
-                    className="flex items-center justify-between rounded-lg border p-3 cursor-pointer hover:bg-muted/50 transition-colors"
+                    className="flex items-center justify-between rounded-lg bg-muted/30 p-3 cursor-pointer hover:bg-muted/50 transition-colors"
                     onClick={() => router.push(`/dashboard/policies/${policy.id}`)}
                   >
                     <div className="space-y-1">
