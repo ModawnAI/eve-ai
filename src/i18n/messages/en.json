@@ -1,0 +1,777 @@
+{
+  "landing": {
+    "nav": {
+      "features": "Features",
+      "howItWorks": "How It Works",
+      "testimonials": "Testimonials",
+      "pricing": "Pricing",
+      "login": "Log In",
+      "getStarted": "Get Started"
+    },
+    "hero": {
+      "badge": "AI-Powered Insurance Management",
+      "title": "Transform Your Insurance Agency with",
+      "titleHighlight": "EVE AI",
+      "subtitle": "The intelligent platform that automates document processing, streamlines client management, and provides bilingual support for modern insurance agencies.",
+      "cta": "Start Free Trial",
+      "ctaSecondary": "Watch Demo",
+      "trustedBy": "Trusted by leading insurance agencies"
+    },
+    "features": {
+      "title": "Everything You Need to Run Your Agency",
+      "subtitle": "Powerful features designed specifically for insurance professionals",
+      "aiDocuments": {
+        "title": "AI Document Processing",
+        "description": "Automatically extract data from dec pages, applications, and ID cards with 99% accuracy using advanced AI."
+      },
+      "clientManagement": {
+        "title": "Smart Client Management",
+        "description": "Organize clients, track interactions, and never miss a renewal with intelligent reminders."
+      },
+      "bilingual": {
+        "title": "Bilingual Support",
+        "description": "Serve diverse communities with seamless English and Chinese language support throughout the platform."
+      },
+      "policyTracking": {
+        "title": "Policy Tracking",
+        "description": "Monitor all policies in one place with automatic expiration alerts and renewal workflows."
+      },
+      "integrations": {
+        "title": "Carrier Integrations",
+        "description": "Connect with IVANS, HealthSherpa, Covered California, and other major platforms."
+      },
+      "reports": {
+        "title": "Analytics & Reports",
+        "description": "Gain insights with comprehensive reports on commissions, production, and client retention."
+      }
+    },
+    "howItWorks": {
+      "title": "How EVE AI Works",
+      "subtitle": "Get started in minutes, not hours",
+      "step1": {
+        "title": "Upload Documents",
+        "description": "Simply upload your insurance documents - dec pages, applications, ID cards. Our AI handles the rest."
+      },
+      "step2": {
+        "title": "AI Processes Data",
+        "description": "Our advanced AI extracts key information, categorizes documents, and updates client records automatically."
+      },
+      "step3": {
+        "title": "Manage & Grow",
+        "description": "Focus on building relationships while EVE AI handles the paperwork. Track renewals, manage clients, and grow your business."
+      }
+    },
+    "testimonials": {
+      "title": "Loved by Insurance Professionals",
+      "subtitle": "See what agency owners are saying about EVE AI",
+      "items": [
+        {
+          "quote": "EVE AI has cut our document processing time by 80%. What used to take hours now takes minutes.",
+          "name": "Sarah Chen",
+          "title": "Agency Owner, Chen Insurance Group"
+        },
+        {
+          "quote": "The bilingual support has been a game-changer for our diverse client base. Our Chinese-speaking clients love it.",
+          "name": "Michael Wong",
+          "title": "Principal Agent, Pacific Insurance Services"
+        },
+        {
+          "quote": "Finally, an AMS that understands modern insurance agencies. The AI features are incredibly accurate.",
+          "name": "Jennifer Martinez",
+          "title": "Owner, Martinez Insurance Agency"
+        },
+        {
+          "quote": "The integration with HealthSherpa and Covered California has streamlined our health insurance enrollments.",
+          "name": "David Liu",
+          "title": "Health Insurance Specialist"
+        },
+        {
+          "quote": "We've increased our client retention by 25% since implementing EVE AI's renewal tracking system.",
+          "name": "Amanda Thompson",
+          "title": "Agency Manager, Thompson & Associates"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Transform Your Agency?",
+      "subtitle": "Join hundreds of insurance professionals who are already using EVE AI to grow their business.",
+      "button": "Start Your Free Trial",
+      "noCard": "No credit card required"
+    },
+    "footer": {
+      "description": "The intelligent platform for modern insurance agencies.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "features": "Features",
+      "pricing": "Pricing",
+      "integrations": "Integrations",
+      "about": "About Us",
+      "contact": "Contact",
+      "careers": "Careers",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "copyright": "© 2024 EVE AI. All rights reserved."
+    }
+  },
+  "common": {
+    "appName": "EVE AI",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "actions": "Actions",
+    "view": "View",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "reset": "Reset",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "all": "All",
+    "none": "None",
+    "select": "Select",
+    "required": "Required",
+    "optional": "Optional",
+    "noResults": "No results found",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "auth": {
+    "login": "Log In",
+    "logout": "Log Out",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "rememberMe": "Remember me",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginSuccess": "Welcome back!",
+    "logoutSuccess": "You have been logged out",
+    "invalidCredentials": "Invalid email or password",
+    "emailRequired": "Email is required",
+    "passwordRequired": "Password is required",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "passwordMismatch": "Passwords do not match",
+    "emailInvalid": "Please enter a valid email address",
+    "title": "Welcome Back",
+    "subtitle": "Log in to your EVE AI account",
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Sign up for EVE AI",
+    "forgotTitle": "Forgot Password",
+    "forgotSubtitle": "Enter your email to reset your password",
+    "fullName": "Full Name",
+    "agencyName": "Agency Name",
+    "sendResetLink": "Send Reset Link",
+    "backToLogin": "Back to Login",
+    "resetSuccess": "Check your email",
+    "resetSuccessMessage": "We've sent a password reset link to your email address.",
+    "loggingIn": "Logging in...",
+    "registering": "Creating account...",
+    "sendingReset": "Sending...",
+    "termsText": "By signing up, you agree to our Terms of Service and Privacy Policy."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "clients": "Clients",
+    "policies": "Policies",
+    "documents": "Documents",
+    "settings": "Settings",
+    "help": "Help",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "ai": "AI Assistant",
+    "reports": "Reports",
+    "integrations": "Integrations",
+    "admin": "User Management",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar",
+    "search": "Search...",
+    "searchPlaceholder": "Search...",
+    "theme": "Toggle theme",
+    "language": "Language",
+    "viewProfile": "View profile",
+    "signOut": "Sign out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {name}",
+    "overview": "Overview",
+    "recentActivity": "Recent Activity",
+    "upcomingRenewals": "Upcoming Renewals",
+    "quickActions": "Quick Actions",
+    "totalClients": "Total Clients",
+    "activePolicies": "Active Policies",
+    "pendingTasks": "Pending Tasks",
+    "monthlyPremium": "Monthly Premium",
+    "renewalsThisMonth": "Renewals This Month",
+    "documentsToReview": "Documents to Review",
+    "subtitle": "Here's what's happening with your agency today.",
+    "stats": {
+      "clients": "Total Clients",
+      "policies": "Active Policies",
+      "renewals": "Pending Renewals",
+      "premium": "Monthly Premium",
+      "change": "{value}% from last month"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "description": "Latest updates from your agency",
+      "viewAll": "View All",
+      "newClient": "New client added",
+      "policyRenewed": "Policy renewed",
+      "documentUploaded": "Document uploaded",
+      "quoteGenerated": "Quote generated"
+    },
+    "expiringPolicies": {
+      "title": "Expiring Policies",
+      "description": "Policies expiring in the next 30 days",
+      "daysLeft": "{days} days left",
+      "viewAll": "View All Renewals"
+    }
+  },
+  "clients": {
+    "title": "Clients",
+    "subtitle": "Manage your insurance clients",
+    "addClient": "Add Client",
+    "editClient": "Edit Client",
+    "clientDetails": "Client Details",
+    "searchPlaceholder": "Search clients by name or email...",
+    "noClients": "No clients found",
+    "individual": "Individual",
+    "business": "Business",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "businessName": "Business Name",
+    "email": "Email",
+    "phone": "Phone",
+    "secondaryPhone": "Secondary Phone",
+    "dateOfBirth": "Date of Birth",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "zipCode": "ZIP Code",
+    "preferredLanguage": "Preferred Language",
+    "notes": "Notes",
+    "tags": "Tags",
+    "policies": "Policies",
+    "documents": "Documents",
+    "activity": "Activity",
+    "createdAt": "Created",
+    "updatedAt": "Last Updated",
+    "filter": "Filter",
+    "allClients": "All Clients",
+    "totalClients": "{count} clients total",
+    "table": {
+      "name": "Name",
+      "contact": "Contact",
+      "location": "Location",
+      "policies": "Policies",
+      "type": "Type"
+    },
+    "type": {
+      "individual": "Individual",
+      "business": "Business"
+    },
+    "actions": {
+      "view": "View Details",
+      "edit": "Edit Client",
+      "addPolicy": "Add Policy",
+      "delete": "Delete Client"
+    }
+  },
+  "policies": {
+    "title": "Policies",
+    "subtitle": "Manage insurance policies",
+    "addPolicy": "Add Policy",
+    "editPolicy": "Edit Policy",
+    "policyDetails": "Policy Details",
+    "searchPlaceholder": "Search by policy number or client name...",
+    "noPolicies": "No policies found",
+    "policyNumber": "Policy Number",
+    "carrier": "Carrier",
+    "lineOfBusiness": "Line of Business",
+    "status": "Status",
+    "effectiveDate": "Effective Date",
+    "expirationDate": "Expiration Date",
+    "premium": "Premium",
+    "client": "Client",
+    "personalAuto": "Personal Auto",
+    "homeowners": "Homeowners",
+    "commercial": "Commercial",
+    "health": "Health",
+    "life": "Life",
+    "other": "Other",
+    "quote": "Quote",
+    "pending": "Pending",
+    "active": "Active",
+    "cancelled": "Cancelled",
+    "expired": "Expired",
+    "nonRenewed": "Non-Renewed",
+    "renewal": "Renewal",
+    "daysUntilExpiration": "{days} days until expiration",
+    "allPolicies": "All Policies",
+    "totalPolicies": "{count} policies total",
+    "filter": {
+      "status": "Status",
+      "lineOfBusiness": "Line of Business",
+      "allStatus": "All Status",
+      "allLines": "All Lines"
+    },
+    "table": {
+      "policyNumber": "Policy #",
+      "client": "Client",
+      "type": "Type",
+      "carrier": "Carrier",
+      "dates": "Dates",
+      "premium": "Premium",
+      "status": "Status"
+    },
+    "lob": {
+      "personalAuto": "Personal Auto",
+      "personalauto": "Personal Auto",
+      "homeowners": "Homeowners",
+      "commercial": "Commercial",
+      "health": "Health",
+      "life": "Life"
+    },
+    "actions": {
+      "view": "View Details",
+      "edit": "Edit Policy",
+      "renew": "Renew Policy",
+      "documents": "View Documents",
+      "cancel": "Cancel Policy"
+    }
+  },
+  "documents": {
+    "title": "Documents",
+    "subtitle": "AI-powered document management",
+    "uploadDocument": "Upload Document",
+    "searchPlaceholder": "Search documents...",
+    "noDocuments": "No documents found",
+    "fileName": "File Name",
+    "fileType": "Type",
+    "fileSize": "Size",
+    "uploadedAt": "Uploaded",
+    "uploadedBy": "Uploaded By",
+    "idCard": "ID Card",
+    "decPage": "Dec Page",
+    "application": "Application",
+    "endorsement": "Endorsement",
+    "cancellation": "Cancellation",
+    "invoice": "Invoice",
+    "claim": "Claim",
+    "processing": "Processing",
+    "processed": "Processed",
+    "failed": "Failed",
+    "dragAndDrop": "Drag and drop files here, or click to browse",
+    "supportedFormats": "Supported formats: PDF, JPG, PNG",
+    "filter": "Filter",
+    "allDocuments": "All Documents",
+    "totalDocuments": "{count} documents total",
+    "stats": {
+      "total": "Total Documents",
+      "processed": "AI Processed",
+      "pending": "Pending Review",
+      "failed": "Processing Failed"
+    },
+    "table": {
+      "name": "Document Name",
+      "client": "Client",
+      "policy": "Policy #",
+      "type": "Type",
+      "size": "Size",
+      "aiStatus": "AI Status",
+      "uploaded": "Uploaded"
+    },
+    "type": {
+      "decpage": "Dec Page",
+      "dec_page": "Dec Page",
+      "application": "Application",
+      "idcard": "ID Card",
+      "id_card": "ID Card",
+      "endorsement": "Endorsement",
+      "cancellation": "Cancellation",
+      "invoice": "Invoice",
+      "claim": "Claim",
+      "other": "Other"
+    },
+    "aiStatus": {
+      "completed": "Completed",
+      "processing": "Processing",
+      "pending": "Pending",
+      "failed": "Failed"
+    },
+    "actions": {
+      "view": "View Document",
+      "download": "Download",
+      "reprocess": "Reprocess with AI",
+      "delete": "Delete Document"
+    },
+    "upload": {
+      "title": "Upload Document",
+      "description": "Upload a document to your agency",
+      "dropzone": "Drag and drop a file here, or click to browse",
+      "formats": "PDF, JPG, PNG up to 10MB",
+      "selectClient": "Select Client (Optional)",
+      "selectPolicy": "Select Policy (Optional)",
+      "documentType": "Document Type",
+      "uploading": "Uploading...",
+      "success": "Document uploaded successfully",
+      "error": "Failed to upload document"
+    },
+    "delete": {
+      "title": "Delete Document",
+      "description": "Are you sure you want to delete this document? This action cannot be undone.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "empty": {
+      "title": "No documents yet",
+      "description": "Upload your first document to get started with AI-powered processing."
+    }
+  },
+  "ai": {
+    "title": "EVE AI Assistant",
+    "subtitle": "Your intelligent insurance assistant",
+    "assistant": "EVE AI Assistant",
+    "askQuestion": "Ask a question...",
+    "thinking": "Thinking...",
+    "online": "Online",
+    "suggestions": "Suggestions",
+    "translateDocument": "Translate Document",
+    "explainPolicy": "Explain Policy",
+    "compareQuotes": "Compare Quotes",
+    "helpWithClaim": "Help with Claim",
+    "conversations": "Conversations",
+    "inputPlaceholder": "Type your message...",
+    "placeholder": "Type your message...",
+    "welcome": "Welcome to EVE AI",
+    "welcomeMessage": "I'm here to help with your insurance agency needs. Ask me anything!",
+    "suggestion1": "What policies are expiring soon?",
+    "suggestion2": "How do I file a claim?",
+    "suggestion3": "Show me today's appointments",
+    "error": "Sorry, something went wrong. Please try again.",
+    "copy": "Copy",
+    "copied": "Copied",
+    "close": "Close",
+    "askAI": "Ask EVE AI",
+    "disclaimer": "AI responses may not always be accurate. Verify important information."
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Manage your account and preferences",
+    "profile": "Profile",
+    "agency": "Agency",
+    "team": "Team",
+    "integrations": "Integrations",
+    "notifications": "Notifications",
+    "appearance": "Appearance",
+    "language": "Language",
+    "theme": "Theme",
+    "lightMode": "Light",
+    "darkMode": "Dark",
+    "systemDefault": "System Default",
+    "saveChanges": "Save Changes",
+    "changesSaved": "Your changes have been saved",
+    "tabs": {
+      "profile": "Profile",
+      "agency": "Agency",
+      "notifications": "Notifications",
+      "security": "Security",
+      "appearance": "Appearance"
+    },
+    "profile": {
+      "title": "Profile Settings",
+      "description": "Manage your personal information",
+      "uploadPhoto": "Upload Photo",
+      "photoHint": "JPG, PNG or GIF. Max size 2MB.",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "language": "Preferred Language"
+    },
+    "agency": {
+      "title": "Agency Settings",
+      "description": "Manage your agency information",
+      "name": "Agency Name",
+      "license": "License Number",
+      "phone": "Agency Phone",
+      "email": "Agency Email",
+      "address": "Street Address",
+      "city": "City",
+      "zipCode": "ZIP Code"
+    },
+    "notifications": {
+      "title": "Notification Preferences",
+      "description": "Control how you receive notifications",
+      "policyRenewals": "Policy Renewals",
+      "policyRenewalsDesc": "Get notified when policies are due for renewal",
+      "documentUploads": "Document Uploads",
+      "documentUploadsDesc": "Receive alerts when new documents are uploaded",
+      "aiProcessing": "AI Processing Complete",
+      "aiProcessingDesc": "Get notified when AI finishes processing documents",
+      "marketing": "Marketing Communications",
+      "marketingDesc": "Receive product updates and tips"
+    },
+    "security": {
+      "title": "Security Settings",
+      "description": "Manage your account security",
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm New Password",
+      "twoFactor": "Two-Factor Authentication",
+      "twoFactorDesc": "Add an extra layer of security to your account",
+      "enable": "Enable",
+      "sessions": "Active Sessions",
+      "sessionsDesc": "Manage devices where you're currently logged in",
+      "logoutAll": "Log Out All Devices"
+    },
+    "appearance": {
+      "title": "Appearance",
+      "description": "Customize how EVE AI looks",
+      "theme": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System",
+      "compactMode": "Compact Mode",
+      "compactModeDesc": "Reduce spacing and make the interface more dense"
+    }
+  },
+  "integrations": {
+    "title": "Integrations",
+    "subtitle": "Connect your agency with external services",
+    "connected": "Connected",
+    "disconnected": "Not Connected",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "configure": "Configure",
+    "lastSync": "Last synced",
+    "categories": {
+      "carriers": "Insurance Carriers",
+      "marketplaces": "Marketplaces",
+      "crm": "CRM Systems",
+      "communication": "Communication"
+    },
+    "ivans": {
+      "name": "IVANS",
+      "description": "Download policy documents and endorsements automatically from carriers"
+    },
+    "healthsherpa": {
+      "name": "HealthSherpa",
+      "description": "Manage ACA marketplace enrollments and applications"
+    },
+    "coveredca": {
+      "name": "Covered California",
+      "description": "Connect with California's health insurance marketplace"
+    },
+    "medicare": {
+      "name": "Medicare.gov",
+      "description": "Access Medicare plan information and enrollment tools"
+    },
+    "salesforce": {
+      "name": "Salesforce",
+      "description": "Sync client and policy data with your Salesforce CRM"
+    },
+    "hubspot": {
+      "name": "HubSpot",
+      "description": "Integrate with HubSpot for marketing and sales automation"
+    },
+    "twilio": {
+      "name": "Twilio",
+      "description": "Send SMS notifications and reminders to clients"
+    },
+    "sendgrid": {
+      "name": "SendGrid",
+      "description": "Email delivery for policy documents and communications"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "error": "Error",
+      "syncing": "Syncing..."
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Analytics and business insights",
+    "generate": "Generate Report",
+    "export": "Export",
+    "exportReport": "Export Report",
+    "dateRange": "Date Range",
+    "from": "From",
+    "to": "To",
+    "timeRange": {
+      "week": "This Week",
+      "month": "This Month",
+      "quarter": "This Quarter",
+      "year": "This Year"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "expirations": "Expirations",
+      "commissions": "Commissions",
+      "production": "Production"
+    },
+    "overview": {
+      "title": "Business Overview",
+      "totalPolicies": "Total Policies",
+      "activeClients": "Active Clients",
+      "monthlyCommissions": "Monthly Commissions",
+      "expiringThisMonth": "Expiring This Month",
+      "fromLastMonth": "from last month",
+      "totalPremium": "Total Premium",
+      "totalCommission": "Total Commission",
+      "policyCount": "Policy Count",
+      "clientCount": "Client Count",
+      "upcomingExpirations": "Upcoming Expirations",
+      "upcomingExpirationsDesc": "Policies expiring soon that need attention",
+      "recentCommissions": "Recent Commissions",
+      "recentCommissionsDesc": "Your latest commission payments",
+      "viewAll": "View All"
+    },
+    "expirations": {
+      "title": "Policy Expirations",
+      "subtitle": "Track and manage expiring policies",
+      "description": "Policies expiring within the selected date range",
+      "search": "Search policies...",
+      "filterByType": "Filter by type",
+      "allTypes": "All Types",
+      "health": "Health",
+      "life": "Life",
+      "medicare": "Medicare",
+      "dental": "Dental",
+      "policyNumber": "Policy Number",
+      "client": "Client",
+      "type": "Type",
+      "carrier": "Carrier",
+      "expirationDate": "Expiration Date",
+      "premium": "Premium",
+      "status": "Status",
+      "actions": "Actions",
+      "days": "days",
+      "sendReminder": "Send Reminder",
+      "daysToExpire": "Days to Expiration",
+      "renewalStatus": "Renewal Status",
+      "contacted": "Contacted",
+      "notContacted": "Not Contacted",
+      "renewed": "Renewed",
+      "pending": "Pending"
+    },
+    "commissions": {
+      "title": "Commission Report",
+      "subtitle": "Track your commission earnings and payments",
+      "description": "Track your commission earnings",
+      "exportCSV": "Export CSV",
+      "totalEarned": "Total Earned",
+      "thisMonth": "This month",
+      "pendingPayment": "Pending Payment",
+      "policies": "policies",
+      "avgRate": "Average Rate",
+      "acrossAllPolicies": "Across all policies",
+      "policyNumber": "Policy Number",
+      "client": "Client",
+      "carrier": "Carrier",
+      "premium": "Premium",
+      "rate": "Rate",
+      "commission": "Commission",
+      "status": "Status",
+      "paidDate": "Paid Date",
+      "paid": "Paid",
+      "pending": "Pending",
+      "processing": "Processing",
+      "policy": "Policy",
+      "amount": "Commission",
+      "total": "Total Commissions"
+    },
+    "production": {
+      "title": "Production Report",
+      "description": "New business and renewal production",
+      "newBusiness": "New Business",
+      "renewals": "Renewals",
+      "lapsed": "Lapsed Policies",
+      "retentionRate": "Retention Rate",
+      "inPremium": "in premium",
+      "lostPremium": "lost premium",
+      "vsLastPeriod": "vs last period",
+      "clientRetention": "Client retention rate",
+      "productionByType": "Production by Type",
+      "productionByTypeDesc": "Premium distribution across policy types",
+      "policies": "policies",
+      "byCarrier": "By Carrier",
+      "byLineOfBusiness": "By Line of Business",
+      "byMonth": "By Month"
+    }
+  },
+  "admin": {
+    "title": "User Management",
+    "subtitle": "Manage team members and permissions",
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "deleteUser": "Delete User",
+    "inviteUser": "Invite User",
+    "searchPlaceholder": "Search users...",
+    "noUsers": "No users found",
+    "totalUsers": "{count} users total",
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "lastActive": "Last Active",
+      "actions": "Actions"
+    },
+    "roles": {
+      "admin": "Admin",
+      "agent": "Agent",
+      "staff": "Staff",
+      "readonly": "Read Only"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "pending": "Pending Invite"
+    },
+    "invite": {
+      "title": "Invite Team Member",
+      "description": "Send an invitation to join your agency",
+      "email": "Email Address",
+      "role": "Role",
+      "message": "Personal Message (Optional)",
+      "send": "Send Invitation",
+      "success": "Invitation sent successfully",
+      "error": "Failed to send invitation"
+    },
+    "permissions": {
+      "title": "Permissions",
+      "clients": "Manage Clients",
+      "policies": "Manage Policies",
+      "documents": "Manage Documents",
+      "reports": "View Reports",
+      "settings": "Agency Settings",
+      "users": "Manage Users"
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "notFound": "Page not found",
+    "unauthorized": "You are not authorized to access this page",
+    "networkError": "Network error. Please check your connection.",
+    "serverError": "Server error. Please try again later.",
+    "validationError": "Please check the form for errors"
+  }
+}

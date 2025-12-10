@@ -1,0 +1,783 @@
+{
+  "landing": {
+    "nav": {
+      "features": "功能特点",
+      "howItWorks": "工作原理",
+      "testimonials": "用户评价",
+      "pricing": "价格",
+      "login": "登录",
+      "getStarted": "立即开始"
+    },
+    "hero": {
+      "badge": "AI驱动的保险管理",
+      "title": "用AI革新您的保险代理机构",
+      "titleHighlight": "EVE AI",
+      "subtitle": "智能平台自动处理文档、简化客户管理，为现代保险代理机构提供中英双语支持。",
+      "cta": "免费试用",
+      "ctaSecondary": "观看演示",
+      "trustedBy": "受领先保险机构信赖"
+    },
+    "features": {
+      "title": "经营代理机构所需的一切",
+      "subtitle": "专为保险专业人士设计的强大功能",
+      "aiDocuments": {
+        "title": "AI文档处理",
+        "description": "使用先进AI自动从保单声明页、申请表和身份证件中提取数据，准确率高达99%。"
+      },
+      "clientManagement": {
+        "title": "智能客户管理",
+        "description": "组织客户、跟踪互动，通过智能提醒永不错过续保。"
+      },
+      "bilingual": {
+        "title": "双语支持",
+        "description": "通过平台全面的中英文双语支持，服务多元化社区。"
+      },
+      "policyTracking": {
+        "title": "保单跟踪",
+        "description": "在一个平台监控所有保单，自动到期提醒和续保工作流程。"
+      },
+      "integrations": {
+        "title": "运营商集成",
+        "description": "连接IVANS、HealthSherpa、Covered California等主要平台。"
+      },
+      "reports": {
+        "title": "分析与报表",
+        "description": "通过佣金、业绩和客户留存的综合报表获取深入洞察。"
+      }
+    },
+    "howItWorks": {
+      "title": "EVE AI 工作原理",
+      "subtitle": "几分钟内即可开始使用",
+      "step1": {
+        "title": "上传文档",
+        "description": "只需上传您的保险文档——保单声明页、申请表、身份证件。我们的AI会处理剩下的工作。"
+      },
+      "step2": {
+        "title": "AI处理数据",
+        "description": "我们先进的AI提取关键信息，分类文档，并自动更新客户记录。"
+      },
+      "step3": {
+        "title": "管理与增长",
+        "description": "专注于建立客户关系，让EVE AI处理文书工作。跟踪续保、管理客户、发展业务。"
+      }
+    },
+    "testimonials": {
+      "title": "深受保险专业人士喜爱",
+      "subtitle": "看看代理机构负责人对EVE AI的评价",
+      "items": [
+        {
+          "quote": "EVE AI将我们的文档处理时间减少了80%。以前需要几小时的工作现在只需几分钟。",
+          "name": "陈思雨",
+          "title": "陈氏保险集团负责人"
+        },
+        {
+          "quote": "双语支持对我们多元化的客户群来说是一个重大突破。我们的中文客户非常喜欢。",
+          "name": "王明辉",
+          "title": "太平洋保险服务首席代理人"
+        },
+        {
+          "quote": "终于有一个真正理解现代保险代理机构的管理系统。AI功能非常准确。",
+          "name": "李美琳",
+          "title": "美琳保险代理公司负责人"
+        },
+        {
+          "quote": "与HealthSherpa和Covered California的集成简化了我们的健康保险注册流程。",
+          "name": "刘大卫",
+          "title": "健康保险专家"
+        },
+        {
+          "quote": "自从使用EVE AI的续保跟踪系统以来，我们的客户留存率提高了25%。",
+          "name": "张雅文",
+          "title": "张氏联合代理机构经理"
+        }
+      ]
+    },
+    "cta": {
+      "title": "准备好革新您的代理机构了吗？",
+      "subtitle": "加入数百位已在使用EVE AI发展业务的保险专业人士。",
+      "button": "开始免费试用",
+      "noCard": "无需信用卡"
+    },
+    "footer": {
+      "description": "为现代保险代理机构打造的智能平台。",
+      "product": "产品",
+      "company": "公司",
+      "legal": "法律",
+      "features": "功能",
+      "pricing": "价格",
+      "integrations": "集成",
+      "about": "关于我们",
+      "contact": "联系我们",
+      "careers": "招聘",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "copyright": "© 2024 EVE AI. 保留所有权利。"
+    }
+  },
+  "common": {
+    "appName": "EVE AI",
+    "loading": "加载中...",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "search": "搜索",
+    "filter": "筛选",
+    "actions": "操作",
+    "view": "查看",
+    "close": "关闭",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "submit": "提交",
+    "reset": "重置",
+    "yes": "是",
+    "no": "否",
+    "or": "或",
+    "and": "和",
+    "all": "全部",
+    "none": "无",
+    "select": "选择",
+    "required": "必填",
+    "optional": "选填",
+    "noResults": "未找到结果",
+    "error": "错误",
+    "success": "成功",
+    "warning": "警告",
+    "info": "信息"
+  },
+  "auth": {
+    "login": "登录",
+    "logout": "退出登录",
+    "signup": "注册",
+    "email": "电子邮箱",
+    "password": "密码",
+    "confirmPassword": "确认密码",
+    "forgotPassword": "忘记密码？",
+    "resetPassword": "重置密码",
+    "rememberMe": "记住我",
+    "noAccount": "还没有账户？",
+    "hasAccount": "已有账户？",
+    "loginSuccess": "欢迎回来！",
+    "logoutSuccess": "您已成功退出",
+    "invalidCredentials": "邮箱或密码错误",
+    "emailRequired": "请输入电子邮箱",
+    "passwordRequired": "请输入密码",
+    "passwordTooShort": "密码至少需要8个字符",
+    "passwordMismatch": "两次输入的密码不一致",
+    "emailInvalid": "请输入有效的电子邮箱地址",
+    "title": "欢迎回来",
+    "subtitle": "登录您的 EVE AI 账户",
+    "registerTitle": "创建账户",
+    "registerSubtitle": "注册 EVE AI",
+    "forgotTitle": "忘记密码",
+    "forgotSubtitle": "输入您的邮箱以重置密码",
+    "fullName": "姓名",
+    "agencyName": "机构名称",
+    "sendResetLink": "发送重置链接",
+    "backToLogin": "返回登录",
+    "resetSuccess": "请检查您的邮箱",
+    "resetSuccessMessage": "我们已向您的邮箱发送了密码重置链接。",
+    "loggingIn": "登录中...",
+    "registering": "创建账户中...",
+    "sendingReset": "发送中...",
+    "termsText": "注册即表示您同意我们的服务条款和隐私政策。"
+  },
+  "nav": {
+    "dashboard": "控制台",
+    "clients": "客户",
+    "policies": "保单",
+    "documents": "文档",
+    "settings": "设置",
+    "help": "帮助",
+    "profile": "个人资料",
+    "notifications": "通知",
+    "ai": "AI 助手",
+    "reports": "报表",
+    "integrations": "系统集成",
+    "admin": "用户管理",
+    "collapse": "收起侧边栏",
+    "expand": "展开侧边栏",
+    "search": "搜索...",
+    "searchPlaceholder": "搜索...",
+    "theme": "切换主题",
+    "language": "语言",
+    "viewProfile": "查看个人资料",
+    "signOut": "退出登录"
+  },
+  "dashboard": {
+    "title": "控制台",
+    "welcome": "欢迎回来，{name}",
+    "overview": "概览",
+    "recentActivity": "最近活动",
+    "upcomingRenewals": "即将续保",
+    "quickActions": "快捷操作",
+    "totalClients": "客户总数",
+    "activePolicies": "有效保单",
+    "pendingTasks": "待办任务",
+    "monthlyPremium": "月保费",
+    "renewalsThisMonth": "本月续保",
+    "documentsToReview": "待审核文档",
+    "subtitle": "以下是您机构今日的运营情况。",
+    "stats": {
+      "clients": "客户总数",
+      "policies": "有效保单",
+      "renewals": "待续保",
+      "premium": "月保费",
+      "change": "较上月 {value}%"
+    },
+    "activity": {
+      "title": "最近活动",
+      "description": "您机构的最新动态",
+      "viewAll": "查看全部",
+      "newClient": "新增客户",
+      "policyRenewed": "保单已续保",
+      "documentUploaded": "文档已上传",
+      "quoteGenerated": "报价已生成"
+    },
+    "expiringPolicies": {
+      "title": "即将到期保单",
+      "description": "未来30天内到期的保单",
+      "daysLeft": "还剩 {days} 天",
+      "viewAll": "查看所有续保"
+    }
+  },
+  "clients": {
+    "title": "客户",
+    "subtitle": "管理您的保险客户",
+    "addClient": "添加客户",
+    "editClient": "编辑客户",
+    "clientDetails": "客户详情",
+    "searchPlaceholder": "按姓名或邮箱搜索客户...",
+    "noClients": "未找到客户",
+    "individual": "个人",
+    "business": "企业",
+    "firstName": "名",
+    "lastName": "姓",
+    "businessName": "企业名称",
+    "email": "电子邮箱",
+    "phone": "电话",
+    "secondaryPhone": "备用电话",
+    "dateOfBirth": "出生日期",
+    "address": "地址",
+    "city": "城市",
+    "state": "州",
+    "zipCode": "邮编",
+    "preferredLanguage": "首选语言",
+    "notes": "备注",
+    "tags": "标签",
+    "policies": "保单",
+    "documents": "文档",
+    "activity": "活动记录",
+    "createdAt": "创建时间",
+    "updatedAt": "更新时间",
+    "filter": "筛选",
+    "allClients": "所有客户",
+    "totalClients": "共 {count} 位客户",
+    "table": {
+      "name": "姓名",
+      "contact": "联系方式",
+      "location": "所在地",
+      "policies": "保单",
+      "type": "类型"
+    },
+    "type": {
+      "individual": "个人",
+      "business": "企业"
+    },
+    "actions": {
+      "view": "查看详情",
+      "edit": "编辑客户",
+      "addPolicy": "添加保单",
+      "delete": "删除客户"
+    }
+  },
+  "policies": {
+    "title": "保单",
+    "subtitle": "管理保险保单",
+    "addPolicy": "添加保单",
+    "editPolicy": "编辑保单",
+    "policyDetails": "保单详情",
+    "searchPlaceholder": "按保单号或客户名搜索...",
+    "noPolicies": "未找到保单",
+    "policyNumber": "保单号",
+    "carrier": "保险公司",
+    "lineOfBusiness": "险种",
+    "status": "状态",
+    "effectiveDate": "生效日期",
+    "expirationDate": "到期日期",
+    "premium": "保费",
+    "client": "客户",
+    "personalAuto": "个人车险",
+    "homeowners": "房屋保险",
+    "commercial": "商业保险",
+    "health": "健康保险",
+    "life": "人寿保险",
+    "other": "其他",
+    "quote": "报价中",
+    "pending": "待处理",
+    "active": "有效",
+    "cancelled": "已取消",
+    "expired": "已过期",
+    "nonRenewed": "未续保",
+    "renewal": "续保",
+    "daysUntilExpiration": "距到期还有 {days} 天",
+    "allPolicies": "所有保单",
+    "totalPolicies": "共 {count} 份保单",
+    "filter": {
+      "status": "状态",
+      "lineOfBusiness": "险种",
+      "allStatus": "所有状态",
+      "allLines": "所有险种"
+    },
+    "table": {
+      "policyNumber": "保单号",
+      "client": "客户",
+      "type": "类型",
+      "carrier": "保险公司",
+      "dates": "有效期",
+      "premium": "保费",
+      "status": "状态"
+    },
+    "lob": {
+      "personalAuto": "个人车险",
+      "personalauto": "个人车险",
+      "homeowners": "房屋保险",
+      "commercial": "商业保险",
+      "health": "健康保险",
+      "life": "人寿保险"
+    },
+    "status": {
+      "active": "有效",
+      "pending": "待处理",
+      "expired": "已过期",
+      "cancelled": "已取消"
+    },
+    "actions": {
+      "view": "查看详情",
+      "edit": "编辑保单",
+      "renew": "续保",
+      "documents": "查看文档",
+      "cancel": "取消保单"
+    }
+  },
+  "documents": {
+    "title": "文档",
+    "subtitle": "AI 驱动的文档管理",
+    "uploadDocument": "上传文档",
+    "searchPlaceholder": "搜索文档...",
+    "noDocuments": "未找到文档",
+    "fileName": "文件名",
+    "fileType": "类型",
+    "fileSize": "大小",
+    "uploadedAt": "上传时间",
+    "uploadedBy": "上传者",
+    "idCard": "身份证件",
+    "decPage": "保单声明页",
+    "application": "申请表",
+    "endorsement": "批单",
+    "cancellation": "取消通知",
+    "invoice": "发票",
+    "claim": "理赔文件",
+    "processing": "处理中",
+    "processed": "已处理",
+    "failed": "处理失败",
+    "dragAndDrop": "拖拽文件到此处，或点击浏览",
+    "supportedFormats": "支持格式：PDF、JPG、PNG",
+    "filter": "筛选",
+    "allDocuments": "所有文档",
+    "totalDocuments": "共 {count} 份文档",
+    "stats": {
+      "total": "文档总数",
+      "processed": "AI 已处理",
+      "pending": "待审核",
+      "failed": "处理失败"
+    },
+    "table": {
+      "name": "文档名称",
+      "client": "客户",
+      "policy": "保单号",
+      "type": "类型",
+      "size": "大小",
+      "aiStatus": "AI 状态",
+      "uploaded": "上传时间"
+    },
+    "type": {
+      "decpage": "声明页",
+      "dec_page": "声明页",
+      "application": "申请表",
+      "idcard": "身份证件",
+      "id_card": "身份证件",
+      "endorsement": "批单",
+      "cancellation": "取消通知",
+      "invoice": "发票",
+      "claim": "理赔文件",
+      "other": "其他"
+    },
+    "aiStatus": {
+      "completed": "已完成",
+      "processing": "处理中",
+      "pending": "待处理",
+      "failed": "失败"
+    },
+    "actions": {
+      "view": "查看文档",
+      "download": "下载",
+      "reprocess": "重新处理",
+      "delete": "删除文档"
+    },
+    "upload": {
+      "title": "上传文档",
+      "description": "上传文档到您的机构",
+      "dropzone": "拖拽文件到此处，或点击浏览",
+      "formats": "支持 PDF、JPG、PNG，最大 10MB",
+      "selectClient": "选择客户（可选）",
+      "selectPolicy": "选择保单（可选）",
+      "documentType": "文档类型",
+      "uploading": "上传中...",
+      "success": "文档上传成功",
+      "error": "文档上传失败"
+    },
+    "delete": {
+      "title": "删除文档",
+      "description": "确定要删除此文档吗？此操作无法撤销。",
+      "confirm": "删除",
+      "cancel": "取消"
+    },
+    "empty": {
+      "title": "暂无文档",
+      "description": "上传您的第一份文档，开始使用 AI 智能处理。"
+    }
+  },
+  "ai": {
+    "title": "EVE AI 助手",
+    "subtitle": "您的智能保险助手",
+    "assistant": "EVE AI 助手",
+    "askQuestion": "输入您的问题...",
+    "thinking": "思考中...",
+    "online": "在线",
+    "suggestions": "建议",
+    "translateDocument": "翻译文档",
+    "explainPolicy": "解释保单",
+    "compareQuotes": "比较报价",
+    "helpWithClaim": "理赔帮助",
+    "conversations": "对话记录",
+    "inputPlaceholder": "输入您的消息...",
+    "placeholder": "输入您的消息...",
+    "welcome": "欢迎使用 EVE AI",
+    "welcomeMessage": "我可以帮助您处理保险代理业务相关的任何问题。请随时提问！",
+    "suggestion1": "哪些保单即将到期？",
+    "suggestion2": "如何提交理赔申请？",
+    "suggestion3": "显示今天的预约",
+    "error": "抱歉，出了点问题。请重试。",
+    "copy": "复制",
+    "copied": "已复制",
+    "close": "关闭",
+    "askAI": "询问 EVE AI",
+    "disclaimer": "AI 回复可能不完全准确，请核实重要信息。"
+  },
+  "settings": {
+    "title": "设置",
+    "subtitle": "管理您的账户和偏好",
+    "profile": "个人资料",
+    "agency": "机构信息",
+    "team": "团队管理",
+    "integrations": "系统集成",
+    "notifications": "通知设置",
+    "appearance": "外观",
+    "language": "语言",
+    "theme": "主题",
+    "lightMode": "浅色模式",
+    "darkMode": "深色模式",
+    "systemDefault": "跟随系统",
+    "saveChanges": "保存更改",
+    "changesSaved": "更改已保存",
+    "tabs": {
+      "profile": "个人资料",
+      "agency": "机构信息",
+      "notifications": "通知",
+      "security": "安全",
+      "appearance": "外观"
+    },
+    "profile": {
+      "title": "个人资料设置",
+      "description": "管理您的个人信息",
+      "uploadPhoto": "上传头像",
+      "photoHint": "支持 JPG、PNG 或 GIF，最大 2MB。",
+      "fullName": "姓名",
+      "email": "电子邮箱",
+      "phone": "电话号码",
+      "language": "首选语言"
+    },
+    "agency": {
+      "title": "机构设置",
+      "description": "管理您的机构信息",
+      "name": "机构名称",
+      "license": "执照号码",
+      "phone": "机构电话",
+      "email": "机构邮箱",
+      "address": "街道地址",
+      "city": "城市",
+      "zipCode": "邮编"
+    },
+    "notifications": {
+      "title": "通知偏好",
+      "description": "控制您接收通知的方式",
+      "policyRenewals": "保单续保",
+      "policyRenewalsDesc": "当保单即将续保时通知您",
+      "documentUploads": "文档上传",
+      "documentUploadsDesc": "当新文档上传时接收提醒",
+      "aiProcessing": "AI 处理完成",
+      "aiProcessingDesc": "当 AI 完成文档处理时通知您",
+      "marketing": "营销通讯",
+      "marketingDesc": "接收产品更新和使用技巧"
+    },
+    "security": {
+      "title": "安全设置",
+      "description": "管理您的账户安全",
+      "changePassword": "修改密码",
+      "currentPassword": "当前密码",
+      "newPassword": "新密码",
+      "confirmPassword": "确认新密码",
+      "twoFactor": "双因素认证",
+      "twoFactorDesc": "为您的账户添加额外的安全保护",
+      "enable": "启用",
+      "sessions": "活跃会话",
+      "sessionsDesc": "管理您当前登录的设备",
+      "logoutAll": "登出所有设备"
+    },
+    "appearance": {
+      "title": "外观",
+      "description": "自定义 EVE AI 的外观",
+      "theme": "主题",
+      "light": "浅色",
+      "dark": "深色",
+      "system": "跟随系统",
+      "compactMode": "紧凑模式",
+      "compactModeDesc": "减少间距，使界面更紧凑"
+    }
+  },
+  "integrations": {
+    "title": "系统集成",
+    "subtitle": "连接您的机构与外部服务",
+    "connected": "已连接",
+    "disconnected": "未连接",
+    "connect": "连接",
+    "disconnect": "断开连接",
+    "configure": "配置",
+    "lastSync": "上次同步",
+    "categories": {
+      "carriers": "保险公司",
+      "marketplaces": "市场平台",
+      "crm": "CRM 系统",
+      "communication": "通讯服务"
+    },
+    "ivans": {
+      "name": "IVANS",
+      "description": "自动从保险公司下载保单文档和批单"
+    },
+    "healthsherpa": {
+      "name": "HealthSherpa",
+      "description": "管理 ACA 市场投保和申请"
+    },
+    "coveredca": {
+      "name": "Covered California",
+      "description": "连接加州健康保险市场"
+    },
+    "medicare": {
+      "name": "Medicare.gov",
+      "description": "访问 Medicare 计划信息和投保工具"
+    },
+    "salesforce": {
+      "name": "Salesforce",
+      "description": "与 Salesforce CRM 同步客户和保单数据"
+    },
+    "hubspot": {
+      "name": "HubSpot",
+      "description": "集成 HubSpot 进行营销和销售自动化"
+    },
+    "twilio": {
+      "name": "Twilio",
+      "description": "向客户发送短信通知和提醒"
+    },
+    "sendgrid": {
+      "name": "SendGrid",
+      "description": "发送保单文档和通讯邮件"
+    },
+    "status": {
+      "active": "活跃",
+      "inactive": "未激活",
+      "error": "错误",
+      "syncing": "同步中..."
+    }
+  },
+  "reports": {
+    "title": "报表",
+    "subtitle": "分析和业务洞察",
+    "generate": "生成报表",
+    "export": "导出",
+    "exportReport": "导出报表",
+    "dateRange": "日期范围",
+    "from": "从",
+    "to": "至",
+    "timeRange": {
+      "week": "本周",
+      "month": "本月",
+      "quarter": "本季度",
+      "year": "本年"
+    },
+    "tabs": {
+      "overview": "概览",
+      "expirations": "到期保单",
+      "commissions": "佣金",
+      "production": "业绩"
+    },
+    "overview": {
+      "title": "业务概览",
+      "totalPolicies": "保单总数",
+      "activeClients": "活跃客户",
+      "monthlyCommissions": "月度佣金",
+      "expiringThisMonth": "本月到期",
+      "fromLastMonth": "较上月",
+      "totalPremium": "总保费",
+      "totalCommission": "总佣金",
+      "policyCount": "保单数量",
+      "clientCount": "客户数量",
+      "upcomingExpirations": "即将到期",
+      "upcomingExpirationsDesc": "需要关注的即将到期保单",
+      "recentCommissions": "最近佣金",
+      "recentCommissionsDesc": "您最近的佣金支付记录",
+      "viewAll": "查看全部"
+    },
+    "expirations": {
+      "title": "保单到期报表",
+      "subtitle": "跟踪和管理即将到期的保单",
+      "description": "所选日期范围内到期的保单",
+      "search": "搜索保单...",
+      "filterByType": "按类型筛选",
+      "allTypes": "所有类型",
+      "health": "健康险",
+      "life": "寿险",
+      "medicare": "医疗保险",
+      "dental": "牙科保险",
+      "policyNumber": "保单号",
+      "client": "客户",
+      "type": "类型",
+      "carrier": "保险公司",
+      "expirationDate": "到期日期",
+      "premium": "保费",
+      "status": "状态",
+      "actions": "操作",
+      "days": "天",
+      "sendReminder": "发送提醒",
+      "daysToExpire": "到期天数",
+      "renewalStatus": "续保状态",
+      "contacted": "已联系",
+      "notContacted": "未联系",
+      "renewed": "已续保",
+      "pending": "待处理"
+    },
+    "commissions": {
+      "title": "佣金报表",
+      "subtitle": "跟踪您的佣金收入和支付情况",
+      "description": "跟踪您的佣金收入",
+      "exportCSV": "导出CSV",
+      "totalEarned": "总收入",
+      "thisMonth": "本月",
+      "pendingPayment": "待支付",
+      "policies": "份保单",
+      "avgRate": "平均费率",
+      "acrossAllPolicies": "所有保单平均",
+      "policyNumber": "保单号",
+      "client": "客户",
+      "carrier": "保险公司",
+      "premium": "保费",
+      "rate": "费率",
+      "commission": "佣金",
+      "status": "状态",
+      "paidDate": "支付日期",
+      "paid": "已支付",
+      "pending": "待支付",
+      "processing": "处理中",
+      "policy": "保单",
+      "amount": "佣金",
+      "total": "总佣金"
+    },
+    "production": {
+      "title": "业绩报表",
+      "description": "新业务和续保业绩",
+      "newBusiness": "新业务",
+      "renewals": "续保",
+      "lapsed": "失效保单",
+      "retentionRate": "留存率",
+      "inPremium": "保费收入",
+      "lostPremium": "流失保费",
+      "vsLastPeriod": "较上期",
+      "clientRetention": "客户留存率",
+      "productionByType": "按类型业绩",
+      "productionByTypeDesc": "各险种保费分布",
+      "policies": "份保单",
+      "byCarrier": "按保险公司",
+      "byLineOfBusiness": "按险种",
+      "byMonth": "按月份"
+    }
+  },
+  "admin": {
+    "title": "用户管理",
+    "subtitle": "管理团队成员和权限",
+    "addUser": "添加用户",
+    "editUser": "编辑用户",
+    "deleteUser": "删除用户",
+    "inviteUser": "邀请用户",
+    "searchPlaceholder": "搜索用户...",
+    "noUsers": "未找到用户",
+    "totalUsers": "共 {count} 位用户",
+    "table": {
+      "name": "姓名",
+      "email": "邮箱",
+      "role": "角色",
+      "status": "状态",
+      "lastActive": "上次活跃",
+      "actions": "操作"
+    },
+    "roles": {
+      "admin": "管理员",
+      "agent": "代理人",
+      "staff": "员工",
+      "readonly": "只读"
+    },
+    "status": {
+      "active": "活跃",
+      "inactive": "未激活",
+      "pending": "待接受邀请"
+    },
+    "invite": {
+      "title": "邀请团队成员",
+      "description": "发送邀请加入您的机构",
+      "email": "电子邮箱",
+      "role": "角色",
+      "message": "个人留言（可选）",
+      "send": "发送邀请",
+      "success": "邀请发送成功",
+      "error": "邀请发送失败"
+    },
+    "permissions": {
+      "title": "权限",
+      "clients": "管理客户",
+      "policies": "管理保单",
+      "documents": "管理文档",
+      "reports": "查看报表",
+      "settings": "机构设置",
+      "users": "管理用户"
+    }
+  },
+  "errors": {
+    "generic": "出错了，请重试。",
+    "notFound": "页面未找到",
+    "unauthorized": "您没有权限访问此页面",
+    "networkError": "网络错误，请检查您的连接。",
+    "serverError": "服务器错误，请稍后重试。",
+    "validationError": "请检查表单中的错误"
+  }
+}
