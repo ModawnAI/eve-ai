@@ -84,61 +84,28 @@ export function AIChat({ isOpen = true, onClose, variant = 'floating', className
     ]);
 
     try {
-      const response = await fetch('/api/chat', {
+      const response = await fetch('/api/ai/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          messages: [...messages, userMessage].map((m) => ({
-            role: m.role,
-            content: m.content,
-          })),
+          message: userMessage.content,
         }),
       });
 
       if (!response.ok) {
-        throw new Error('Failed to send message');
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.error || 'Failed to send message');
       }
 
-      const reader = response.body?.getReader();
-      const decoder = new TextDecoder();
+      const data = await response.json();
 
-      if (!reader) {
-        throw new Error('No response body');
-      }
-
-      let fullContent = '';
-
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        const chunk = decoder.decode(value);
-        const lines = chunk.split('\n');
-
-        for (const line of lines) {
-          if (line.startsWith('data: ')) {
-            const data = line.slice(6);
-            if (data === '[DONE]') {
-              continue;
-            }
-            try {
-              const parsed = JSON.parse(data);
-              if (parsed.text) {
-                fullContent += parsed.text;
-                setMessages((prev) =>
-                  prev.map((m) =>
-                    m.id === assistantId ? { ...m, content: fullContent } : m
-                  )
-                );
-              }
-            } catch {
-              // Skip invalid JSON
-            }
-          }
-        }
-      }
+      setMessages((prev) =>
+        prev.map((m) =>
+          m.id === assistantId ? { ...m, content: data.response } : m
+        )
+      );
     } catch (error) {
       console.error('Chat error:', error);
       setMessages((prev) =>
