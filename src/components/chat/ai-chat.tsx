@@ -140,7 +140,7 @@ export function AIChat({ isOpen = true, onClose, variant = 'floating', className
   };
 
   const containerClasses = cn(
-    'flex flex-col bg-card border border-border rounded-2xl shadow-2xl overflow-hidden',
+    'flex flex-col bg-card rounded-2xl shadow-2xl overflow-hidden',
     {
       'fixed bottom-4 right-4 w-[400px] h-[600px] z-50': variant === 'floating',
       'w-full h-full': variant === 'panel',
@@ -161,7 +161,7 @@ export function AIChat({ isOpen = true, onClose, variant = 'floating', className
         className={containerClasses}
       >
         {/* Header */}
-        <div className="flex items-center justify-between px-4 py-3 border-b border-border bg-muted/30">
+        <div className="flex items-center justify-between px-4 py-3 bg-muted/30">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10 text-primary">
               <Robot className="h-5 w-5" weight="duotone" />
@@ -216,7 +216,7 @@ export function AIChat({ isOpen = true, onClose, variant = 'floating', className
                   <button
                     key={index}
                     onClick={() => setInput(suggestion)}
-                    className="text-left text-sm px-3 py-2 rounded-lg border border-border hover:bg-accent transition-colors"
+                    className="text-left text-sm px-3 py-2 rounded-lg bg-muted/30 hover:bg-accent transition-colors"
                   >
                     {suggestion}
                   </button>
@@ -299,7 +299,7 @@ export function AIChat({ isOpen = true, onClose, variant = 'floating', className
         </ScrollArea>
 
         {/* Input */}
-        <div className="p-4 border-t border-border bg-muted/20">
+        <div className="p-4 bg-muted/20">
           <div className="flex gap-2">
             <Textarea
               ref={inputRef}
